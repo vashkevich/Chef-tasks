@@ -1,0 +1,11 @@
+default['jboss']['jb_user'] = 'jboss'
+default['jboss']['jb_group'] = 'jboss'
+default['jboss']['install_folder'] = '/opt'
+default['jboss']['jb_dist_name'] = "jboss7.zip"
+default['jboss']['app_dist_name'] = "testweb.zip"
+default['jboss']['jb_repo'] = "http://download.jboss.org/jbossas/7.1/jboss-as-7.1.1.Final/jboss-as-7.1.1.Final.zip"
+default['jboss']['app_repo'] = "http://www.cumulogic.com/download/Apps/testweb.zip"
+#default['jboss']['install_folder'] = '/opt'
+default['jboss']['jboss_home'] = '/opt/jboss-as-7.1.1.Final'
+default['jboss']['app_deploy_folder'] = "#{node['jboss']['jboss_home']}/standalone/deployments/"
+default['jboss']['jboss_ip'] = '127.0.0.1'
