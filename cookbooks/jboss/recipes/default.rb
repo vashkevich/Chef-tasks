@@ -3,7 +3,7 @@
 #
 # Copyright:: 2017, The Authors, All Rights Reserved.
 
-include_recipe 'java'
+include_recipe 'java_se'
 
 include_recipe 'jboss::install'
 include_recipe 'jboss::config'
