@@ -5,7 +5,7 @@ license 'all_rights'
 description 'Installs/Configures jboss'
 long_description 'Installs/Configures jboss'
 version '0.1.0'
-depends 'java'
+depends 'java_se'
 
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
